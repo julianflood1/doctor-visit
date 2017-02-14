@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor visit</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href= "css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Schedule an Appointment!</h1>
+
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="name">Type your name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="date">Enter a date</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="startTime">Enter a start time</label>
+          <input id="startTime" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="endTime">Enter an end time</label>
+          <input id="endTime" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+
+    <div id="confirmation">
+      <h1>Appointment Confirmation</h1>
+      <p><span class="name"></span> , your appointment is scheduled for <span class="date"></span> , and it is scheduled for <span class="startTime"></span> , and will end at <span class="endTime"></span>. Thank you so much for seeing us, <span class="name"></span> ! We will see you soon!</p>
+
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
