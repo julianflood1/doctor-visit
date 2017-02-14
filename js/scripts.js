@@ -12,6 +12,7 @@ $(document).ready(function() {
     $(".endTime").text(endTimeInput);
 
     $("#confirmation").show();
+    $("#blanks").hide();
 
 
 
